@@ -1,7 +1,7 @@
 class Box {
   constructor(x, y, w, h) {
     const options = {
-      restitution: 0.5
+      restitution: 0.5,
     };
     this.body = Matter.Bodies.rectangle(x, y, w, h, options);
     Matter.World.add(world, this.body);
@@ -11,10 +11,10 @@ class Box {
 
   show() {
     const pos = this.body.position;
-    const angle = this.body.angle;
+    // const angle = this.body.angle;
     push();
     translate(pos.x, pos.y);
-    rotate(angle);
+    // rotate(angle);
     fill(255);
     rectMode(CENTER);
     imageMode(CENTER);
