@@ -22,4 +22,5 @@ class Block {
     image(dotImg, 0, 0, this.w, this.h);
     pop();
   }
+
 }
