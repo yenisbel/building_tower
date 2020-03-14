@@ -44,12 +44,15 @@ function setup() {
 
 function keyPressed() {
   if (key == ' ') {
+    for (const bl of blockes) {
+      World.remove(world, bl.body);
+    };
+    blockes = [];
     World.remove(world, block.body);
     World.remove(world, box.body);
     block = new Block(150, 300, 85, 85);
     slingshot.attach(block.body);
     box = new Box(150, 300, 85, 85);
-    // pendule.attach(block.body);
   }
 
 }
@@ -64,14 +67,6 @@ function mouseReleased() {
     slingshot.attach(new_block.body);
     blockes.push(new_block)
   }, 1500);
-  
-
-  // slingshot = new SlingShot(300, 30, block.body);
-  
-  // setTimeout(() => {
-  //   pendule.fly();
-  // }, 100);
-  
 }
 
 function draw() {
@@ -83,6 +78,6 @@ function draw() {
   slingshot.show();
   block.show()
   for (const b of blockes) {
-    b.show()
-  }
+    b.show();
+  };
 }
