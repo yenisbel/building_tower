@@ -5,6 +5,7 @@ class Box {
     };
     this.body = Matter.Bodies.rectangle(x, y, w, h, options);
     Matter.World.add(world, this.body);
+    this.body.isStatic = true;
     this.w = w;
     this.h = h;
   }
