@@ -7,11 +7,17 @@ Welcome to the building_tower wiki! [check here](https://yenisbel.github.io/buil
 ## Game Rule
 The following are the default game rule:
 
-* In every game player starts with 3 opportunities. Every time a Tower block is dropped player is deduct 1 opportunities; game ends when opportunities are depleted.
+* In every game player starts with 1 base for the tower. Every time a block is dropped player(using the enter key); game ends when tower top the sky limit.
 
-* Player is rewarded with 25 point for every successful stacked blocks(Success), if a block is stacked on top of the previous one. 
+* Player is rewarded with points that can range from 100 to 10 for every stacked blocks. The range of points is calculated based on the tower base coordenates(position x). If a block is stacked pefectly on top of the previous one and align with the base position as well, then player rewarded with 100 points instead. 
+
+* If a block is stacked on top of the previous one, but no align perfectly with the base the Player will only have the points calculated for the current position . 
 
 * Player can pressed space keyboard to restart the game
+
+* Player can use the mouse to swing the block and have the perfect angle before dropped it
+
+* For released the block from the sling the Player can pressed enter key
 
 ## Architecture and Technologies
 * Vanilla JavaScript will be used for game logic
