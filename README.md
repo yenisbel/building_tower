@@ -11,13 +11,13 @@ The following are the default game rule:
 
 * Player can realeased a block using the enter key.
 
-* Player is rewarded with points that can range from 100 to 10 for every stacked blocks. The range of points is calculated based on the tower base coordenates(position x). If a block is stacked pefectly on top of the previous one and align with the base position as well, then player rewarded with 100 points instead. 
+* Player is rewarded with points that can range from 100 to 10 for every stacked blocks with base in the red block. The range of points is calculated based on the tower base coordenates(position x). If a stacked block is perfectly align with the red block base position, then player is reward with 100 points. 
 
-* If a block is stacked on top of the previous one, but no align perfectly with the base the Player will only have the points calculated for the current position . 
+* If a block is stacked, but no align perfectly with the base the Player will only have the points calculated for the current position . 
 
 * Player can pressed space keyboard to restart the game
 
-* Player can use the mouse to swing the block and have the perfect angle before dropped it
+* Player can use the mouse to swing the block and have the perfect angle before released it
 
 * For released the block from the sling the Player can pressed enter key
 
