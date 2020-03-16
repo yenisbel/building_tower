@@ -7,7 +7,9 @@ Welcome to the building_tower wiki! [check here](https://yenisbel.github.io/buil
 ## Game Rule
 The following are the default game rule:
 
-* In every game player starts with 1 base for the tower. Every time a block is dropped player(using the enter key); game ends when tower top the sky limit.
+* In every game player starts with a red block as a base for the tower and a pendulum with a yellow block to release.
+
+* Player can realeased a block using the enter key.
 
 * Player is rewarded with points that can range from 100 to 10 for every stacked blocks. The range of points is calculated based on the tower base coordenates(position x). If a block is stacked pefectly on top of the previous one and align with the base position as well, then player rewarded with 100 points instead. 
 
