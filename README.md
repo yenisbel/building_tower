@@ -1,5 +1,5 @@
-# building_tower
-Building Tower JS Game
+# Building Tower JS Game
+
 
 Welcome to the building_tower wiki! [check here](https://yenisbel.github.io/building_tower/)
 * Building Tower is  a light version based on the Tower Bloxx Skyscraper puzzle.
