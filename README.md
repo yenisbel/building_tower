@@ -19,6 +19,11 @@ The following are the default game rule:
 
 * For released the block from the sling the Player can pressed enter key
 
+![image](https://user-images.githubusercontent.com/7420659/76723834-94309080-6740-11ea-8c50-3574b3843655.png) ![image](https://user-images.githubusercontent.com/7420659/76723942-043f1680-6741-11ea-8568-2c7a84c95839.png)
+
+
+
+
 ## Architecture and Technologies
 * Vanilla JavaScript will be used for game logic
 * HTML5 Canvas will be used for rendering the game sprites and backgrounds
