@@ -1,8 +1,15 @@
-# Building Tower JS Game
+# Building Tower
 
+## Introduction
+Building Tower is  a light version based on the Tower Bloxx Skyscraper puzzle, built in vanilla Javascript. 
 
-Welcome to the building_tower wiki! [check here](https://yenisbel.github.io/building_tower/)
-* Building Tower is  a light version based on the Tower Bloxx Skyscraper puzzle.
+## How It Works
+To see the most up to date version, please visit [the homepage](https://yenisbel.github.io/building_tower/).
+
+## Technologies Used
+* Languages – Vanilla Javascript, HTML5,CSS3
+* Hosting – Github Pages
+* Physics - Material JS library
 
 ## Game Rule
 The following are the default game rule:
@@ -26,10 +33,4 @@ The following are the default game rule:
 |![image](https://user-images.githubusercontent.com/7420659/76723834-94309080-6740-11ea-8c50-3574b3843655.png) |  ![image](https://user-images.githubusercontent.com/7420659/76723942-043f1680-6741-11ea-8568-2c7a84c95839.png)|
 
 
-
-
-## Architecture and Technologies
-* Vanilla JavaScript will be used for game logic
-* HTML5 Canvas will be used for rendering the game sprites and backgrounds
-* CSS will be used for basic styling of the webpage
 
